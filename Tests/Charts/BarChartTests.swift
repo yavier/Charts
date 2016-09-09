@@ -36,6 +36,7 @@ class BarChartTests: FBSnapshotTestCase
         chart.leftAxis.axisMinimum = 0.0
         chart.rightAxis.axisMinimum = 0.0
         chart.data = data
+        chart.backgroundColor = UIColor.clearColor()
     }
     
     override func tearDown()
